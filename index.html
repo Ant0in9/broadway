@@ -10,16 +10,18 @@
     <header>
       <h1>Broadway Design</h1>
         <nav>
-          <a href="#">Home</a> |
-          <a href="#">Process</a> |
-          <a href="#">Work</a> |
-          <a href="#">Team</a>
-          <a href="#">Contact</a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Process</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </nav>
     </header>
     <main>
+    <H2>Our Process</H2>
       <div class="process">
-        <H2>Our Process</H2>
         <div class="identify">
           <img src="./ressources/identify.svg" alt="identify-details">
           <H3>Identify</H3>
@@ -36,10 +38,48 @@
           <p>We put everything we have into our work.</p>
         </div>
       </div>
-      <p>Designed in New-York</p>
+      <p id="new-york">Designed in New-York</p>
       <div class="Portofolio">
         <H3>Portofolio</H3>
-        <p>Coming Soon</p>
+        <div class="row">
+          <div class="column">
+            <img src="./ressources/day.jpg" style="width:100%">
+            <img src="./ressources/day.jpg" style="width:100%">
+            <img src="./ressources/day.jpg" style="width:100%">
+            <img src="./ressources/day.jpg" style="width:100%">
+            <img src="./ressources/day.jpg" style="width:100%">
+            <img src="./ressources/day.jpg" style="width:100%">
+            <img src="./ressources/day.jpg" style="width:100%">
+          </div>
+
+          <div class="column">
+            <img src="./ressources/flower.jpg" style="width:100%">
+            <img src="./ressources/flower.jpg" style="width:100%">
+            <img src="./ressources/flower.jpg" style="width:100%">
+            <img src="./ressources/flower.jpg" style="width:100%">
+            <img src="./ressources/flower.jpg" style="width:100%">
+            <img src="./ressources/flower.jpg" style="width:100%">
+          </div>
+
+          <div class="column">
+            <img src="./ressources/douche.jpg" style="width:100%">
+            <img src="./ressources/douche.jpg" style="width:100%">
+            <img src="./ressources/douche.jpg" style="width:100%">
+            <img src="./ressources/douche.jpg" style="width:100%">
+            <img src="./ressources/douche.jpg" style="width:100%">
+            <img src="./ressources/douche.jpg" style="width:100%">
+            <img src="./ressources/douche.jpg" style="width:100%">
+          </div>
+
+          <div class="column">
+            <img src="./ressources/eatable.jpg" style="width:100%">
+            <img src="./ressources/eatable.jpg" style="width:100%">
+            <img src="./ressources/eatable.jpg" style="width:100%">
+            <img src="./ressources/eatable.jpg" style="width:100%">
+            <img src="./ressources/eatable.jpg" style="width:100%">
+            <img src="./ressources/eatable.jpg" style="width:100%">
+          </div>
+        </div>
       </div>
       <div class="Team">
         <H3>Team</H3>
@@ -47,6 +87,17 @@
       </div>
       <div class="Contact">
         <H3>Contact</H3>
+    <p>Leave us a message:</p>
+    <form class="form-inline" action="#">
+      <label for="email"></label>
+      <input type="email" id="email" placeholder="Enter email" name="email">
+      <label for="Name"></label>
+      <input type="Name" id="name" placeholder="Enter your full name" name="name">
+      <textarea autofocus rows="4" cols="50">
+      </textarea>
+      <button type="submit">Submit</button>
+    </form>
+
         <p>Phone: (555)-555-5555</p>
         <p>E-mail: test@example.com</p>
         <p>Twitter: @test</p>
@@ -61,6 +112,7 @@
         <a href="#">Team</a>
         <a href="#">Contact</a>
       </nav>
+
     </footer>
 	</body>
 </html>
